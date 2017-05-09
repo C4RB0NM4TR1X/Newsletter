@@ -1,1 +1,50 @@
-
+html, body { 
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #f5f5f5;
+    font-family: "Shree Devanagari 714";
+}
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 18px;
+    overflow:auto;
+    border-left: 10px solid #c8c8c8;
+    border-right: 10px solid #c8c8c8;
+    -webkit-box-sizing:border-box;
+}
+ul{
+  margin: 0px;
+}
+nav li{
+    display: inline-block;
+    padding: 5px;
+    border-right: 1px solid rgb(200,200,200);
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    float: left;
+}
+.right{
+    float: right;
+    line-height: 60px;
+}
+.no-border{
+    border:none;
+}
+h1 {
+    font-size: 64px;
+    cursor: pointer;
+}
+p{
+    font-size: 46px;
+    background-color: darkturquoise;
+}
+h1:hover {
+    color: darkturquoise;
+}
